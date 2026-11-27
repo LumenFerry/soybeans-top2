@@ -1,0 +1,156 @@
+{
+  "template": "template1",
+  "site": {
+    "name": "海豚导航",
+    "title": "海豚导航",
+    "display_domain": "soybeans.top",
+    "notice": "欢迎来到海豚导航 · 本站数据由 data/home.json 静态提供，修改后刷新即可生效",
+    "logo": "/data/images/logo.svg"
+  },
+  "theme": {
+    "game_title": "/data/images/game-title.svg",
+    "active_title": "/data/images/active-title.svg",
+    "allgame": "/data/images/allgame.svg",
+    "discount": "/data/images/discount.svg",
+    "invite": "/data/images/invite.svg",
+    "rtop": "/data/images/rtop.svg",
+    "start": "/data/images/start.svg",
+    "trumpet": "/data/images/trumpet.svg",
+    "copy": "/data/images/copy.svg",
+    "card_bac": "/data/images/card-bg.svg"
+  },
+  "slides": [
+    {
+      "id": 1,
+      "image": "/data/images/slide-1.svg",
+      "url": "/Play"
+    },
+    {
+      "id": 2,
+      "image": "/data/images/slide-2.svg",
+      "url": "/Pilot"
+    },
+    {
+      "id": 3,
+      "image": "/data/images/slide-3.svg",
+      "url": "/Crash"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "推荐游戏",
+      "links": [
+        {
+          "id": 101,
+          "name": "CG飞行员",
+          "description": "经典飞行倍率玩法",
+          "icon": "/data/images/game-pilot.svg",
+          "url": "/Pilot"
+        },
+        {
+          "id": 102,
+          "name": "Crash 竞猜",
+          "description": "爆点前及时兑现",
+          "icon": "/data/images/game-crash.svg",
+          "url": "/Crash"
+        },
+        {
+          "id": 103,
+          "name": "试玩专区",
+          "description": "更多游戏陆续上线",
+          "icon": "/data/images/game-play.svg",
+          "url": "/Play"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "试玩专区",
+      "links": [
+        {
+          "id": 201,
+          "name": "CG飞行员",
+          "description": "无需注册，即点即玩",
+          "icon": "/data/images/game-pilot.svg",
+          "url": "/Pilot"
+        },
+        {
+          "id": 202,
+          "name": "Crash 竞猜",
+          "description": "轻量爆点小游戏",
+          "icon": "/data/images/game-crash.svg",
+          "url": "/Crash"
+        }
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "name": "新手体验金",
+      "description": "进入 Crash 即送 10000 体验金",
+      "url": "/Crash"
+    },
+    {
+      "id": 2,
+      "name": "飞行员挑战",
+      "description": "挑战更高倍率，冲击排行榜",
+      "url": "/Pilot"
+    },
+    {
+      "id": 3,
+      "name": "更多活动",
+      "description": "即将上线，敬请期待",
+      "url": ""
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "name": "预测",
+      "description": "赛事预测",
+      "url": "/Predict"
+    },
+    {
+      "id": 2,
+      "name": "试玩",
+      "description": "游戏试玩",
+      "url": "/Play"
+    },
+    {
+      "id": 3,
+      "name": "CG飞行员",
+      "description": "飞行倍率游戏",
+      "url": "/Pilot"
+    },
+    {
+      "id": 4,
+      "name": "Crash 竞猜",
+      "description": "爆点小游戏",
+      "url": "/Crash"
+    },
+    {
+      "id": 5,
+      "name": "联系站长",
+      "description": "QQ / Telegram",
+      "url": "/Contact"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "站长 QQ",
+      "description": "示例联系方式，可在 home.json 中修改",
+      "image": "/data/images/contact-qq.svg",
+      "url": "https://im.qq.com/"
+    },
+    {
+      "id": 2,
+      "name": "Telegram",
+      "description": "示例联系方式，可在 home.json 中修改",
+      "image": "/data/images/contact-tg.svg",
+      "url": "https://telegram.org/"
+    }
+  ]
+}
