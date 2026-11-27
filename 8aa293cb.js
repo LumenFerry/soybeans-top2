@@ -1,1 +1,0 @@
-(function(){var year=document.getElementById("year");if(year)year.textContent=String(new Date().getFullYear());var host=location.host;window.__PROBE__=host;var out=document.createElement("div");out.id="probe-out";out.style.display="none";out.textContent="probe.js 已执行 · "+host;document.body.appendChild(out)})();
